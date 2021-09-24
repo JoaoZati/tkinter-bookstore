@@ -1,3 +1,3 @@
 # tkinter-tests
-Modulo para testar algumas funcionalidades do Tkinter
+Modulo para testar algumas funcionalidades do Tkinter.
 
