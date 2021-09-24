@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+  database:
+    container_name: script1
+    image: postgres
+    restart: always
+    volumes:
+      - ./.pgdata:/var/lib/postgresql/data
+    environment:
+      - LC_ALL=C.UTF-8
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_USER=script1
+    ports:
+      - 5432
